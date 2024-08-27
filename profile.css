@@ -26,7 +26,8 @@ body {
 }
 
 .card_detail {
-    font-size: 15;
+    font-size: 12;
+    text-align: left;
 }
 
 .card_button {
