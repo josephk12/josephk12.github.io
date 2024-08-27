@@ -8,9 +8,12 @@ body {
     /* display는 보여지는 위치, grid는 간격 */
 }
 
+.email {
+    text-align: right;
+}
+
 .card {
     font-size: 15px;
-    color:chocolate;
 }
 
 .card_img {
