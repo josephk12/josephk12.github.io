@@ -25,8 +25,17 @@
             height: 100px;
         }
 
+        #card_intro {
+            display: flex;
+        }
+
+        #card_pro {
+            display: table-cell; vertical-align: middle;
+        }
+
         .card_title {
             font-size: 20;
+            text-align: left;
         }
 
         .card_detail {
@@ -47,12 +56,11 @@
         <br>
     </div>
     <div id="widshow">
-        <div class="card">
+        <div id="card_intro">
             <img id="card_img" src="./IMG_0056.HEIC">
             <div id="pro">
                 <p class="card_title"> 김동환 (DONGHWAN KIM) </p> <!-- p는 단락을 나타내는 태그, 내용을 입력-->
                 <p class="card_detail"> 협업을 잘하는 풀스택 개발자 김동환입니다. </p> 
-
             </div>
 
         </div>
