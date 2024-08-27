@@ -4,30 +4,34 @@ body {
 }
 
 #widshow {
-    display:grid; grid-template-columns: 1fr 1fr 1fr;
+    display:inline;
     /* display는 보여지는 위치, grid는 간격 */
 }
 
 .card {
-    font-size: 25px;
+    font-size: 15px;
     color:chocolate;
 }
 
 .card_img {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 
 .card_title {
-    color:rgb(14, 147, 114);
+    font-size: 20;
+}
+
+.card_detail {
+    font-size: 15;
 }
 
 .card_button {
     background-color: white;
     border-radius: 5px;
     border-color: gray;
-    font-size: 30px;
-    width: 120px;
-    height: 40px;
-    color:rgb(30, 176, 30);
+    font-size: 15px;
+    width: 60px;
+    height: 20px;
+    color:rgb(40, 173, 13);
 }
